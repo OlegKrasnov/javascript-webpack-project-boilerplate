@@ -63,7 +63,7 @@ module.exports = {
         }
       }
     ],
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
     'max-len': [
       'error',
       {
