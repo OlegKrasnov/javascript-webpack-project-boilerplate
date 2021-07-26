@@ -20,3 +20,7 @@ npm run start
 npm run build
 
 ```
+
+Or click on Download ZIP.
+
+Extract the zip anywhere you would like it.
